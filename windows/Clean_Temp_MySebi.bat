@@ -6,6 +6,21 @@
      href="https://github.com/sugardarius419-cpu/My_Sebi-PRO-OPTIMIZARE/raw/main/windows/Clean_Temp_MySebi.bat"
      download>
     ⬇️ Download Script Windows - Curatare TEMP
+<div class="hero-buttons" style="margin-top: 16px;">
+    <a class="btn btn-primary"
+       href="windows/Clean_Temp_MySebi.bat"
+       download>
+       🧹 Download Clean Temp Windows
+    </a>
+
+    <a class="btn btn-primary"
+       href="windows/FPS_Boost_MySebi.bat"
+       download
+       style="margin-left: 10px;">
+       ⚡ Download FPS Boost Windows
+    </a>
+</div>
+
   </a>
 </section>
 
