@@ -13,13 +13,3 @@
             box-shadow: 0px 0px 25px rgba(0, 255, 255, 0.25);
             border: 2px solid rgba(56, 189, 248, 0.4);
          ">
-</div>
-<img src="My_SebiOPTIMIZARE.jpg"
-     alt="My_Sebi PRO OPTIMIZARE Banner"
-     style="
-        width:100%;
-        max-width:1100px;
-        border-radius:18px;
-        box-shadow: 0px 0px 25px rgba(0, 255, 255, 0.25);
-        border: 2px solid rgba(56, 189, 248, 0.4);
-     ">
