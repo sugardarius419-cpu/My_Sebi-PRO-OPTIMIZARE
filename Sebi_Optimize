@@ -1,0 +1,228 @@
+index.html
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>My_Sebi PRO OPTIMIZARE – Windows & Linux</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            background: #020617;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
+        header {
+            padding: 16px;
+            background: #0f172a;
+            border-bottom: 1px solid #1f2937;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 22px;
+        }
+        .logo span { color: #38bdf8; }
+        .nav-links a {
+            margin-left: 16px;
+            text-decoration: none;
+            color: #9ca3af;
+            font-size: 14px;
+        }
+        .nav-links a:hover { color: white; }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 0 30px;
+        }
+        .hero h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .hero p { color: #9ca3af; margin-bottom: 15px; }
+
+        .hero-links a {
+            display: inline-block;
+            margin: 8px;
+            padding: 8px 16px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        .hero-links a:hover { background: #1d4ed8; }
+
+        .grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            margin-top: 40px;
+        }
+        .card {
+            background: #0f172a;
+            border: 1px solid #1f2937;
+            padding: 18px;
+            border-radius: 12px;
+        }
+        .badge {
+            display: inline-block;
+            background: #2563eb;
+            padding: 2px 8px;
+            border-radius: 999px;
+            font-size: 11px;
+            color: white;
+            margin-bottom: 8px;
+        }
+        ul { margin-left: 20px; }
+        ul li { margin: 4px 0; }
+        h2 { margin: 20px 0 10px; font-size: 22px; }
+
+        .contact-list a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+        .contact-list a:hover { text-decoration: underline; }
+
+        code {
+            background: #111827;
+            padding: 2px 5px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 12px;
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">My_Sebi <span>PRO OPTIMIZARE</span></div>
+        <div class="nav-links">
+            <a href="#windows">Windows</a>
+            <a href="#linux">Linux</a>
+            <a href="#download">Download</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Optimizare Windows & Linux pentru Gaming</h1>
+        <p>Scripturi, setări și tweak-uri făcute de Sebi pentru FPS mai mare și experiență fără lag.</p>
+
+        <div class="hero-links">
+            <a href="https://www.youtube.com/@My_Sebi" target="_blank">📺 Canalul meu YouTube</a>
+            <a href="https://discord.gg/AxvkTCFSd4" target="_blank">💬 Server Discord</a>
+        </div>
+    </section>
+
+    <!-- CARDS -->
+    <div class="grid">
+        <div class="card">
+            <div class="badge">Windows</div>
+            <h3>Optimizare Windows</h3>
+            <ul>
+                <li>Curățare fișiere temporare</li>
+                <li>Dezactivare servicii inutile</li>
+                <li>FPS Boost pentru Fortnite / Minecraft</li>
+                <li>Scripturi .bat și .reg</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="badge" style="background:#16a34a;">Linux</div>
+            <h3>Optimizare Linux</h3>
+            <ul>
+                <li>Comenzi pentru curățare</li>
+                <li>Optimizare Wine / Proton</li>
+                <li>Update sistem rapid</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="badge" style="background:#7c3aed;">Suport</div>
+            <h3>Ajutor Sebi</h3>
+            <ul>
+                <li>Asistență prin Discord</li>
+                <li>Setări personalizate pentru PC</li>
+                <li>Reparații și optimizări live</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- WINDOWS -->
+    <section id="windows">
+        <h2>Optimizare Windows</h2>
+        <ul>
+            <li>1. Apasă <code>Win + R</code> → scrie <code>temp</code> și șterge tot.</li>
+            <li>2. Task Manager → Startup → dezactivează programe inutile.</li>
+            <li>3. Energie pe <b>High Performance</b>.</li>
+        </ul>
+    </section>
+
+    <!-- LINUX -->
+    <section id="linux">
+        <h2>Optimizare Linux (Zorin / Ubuntu)</h2>
+        <ul>
+            <li><code>sudo apt update && sudo apt upgrade -y</code></li>
+            <li><code>sudo apt autoremove</code></li>
+        </ul>
+    </section>
+
+    <!-- DOWNLOAD -->
+    <section id="download">
+        <h2>Download Scripturi</h2>
+        <ul>
+            <li><a href="#">Script Windows (în curând)</a></li>
+            <li><a href="#">Script Linux (în curând)</a></li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul class="contact-list">
+            <li>YouTube: <a href="https://www.youtube.com/@My_Sebi" target="_blank">@My_Sebi</a></li>
+            <li>Server Discord: <a href="https://discord.gg/AxvkTCFSd4" target="_blank">Join Server</a></li>
+            <li>Discord User: <b>My_Sebi</b></li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    © <span id="year"></span> My_Sebi PRO OPTIMIZARE
+</footer>
+
+<script>
+    document.getElementById("year").innerText = new Date().getFullYear();
+</script>
+
+</body>
+</html>
