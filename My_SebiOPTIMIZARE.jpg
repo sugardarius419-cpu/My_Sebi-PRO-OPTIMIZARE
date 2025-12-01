@@ -1,9 +1,29 @@
-<img src="My_SebiOPTIMIZARE.jpg"
-     alt="My_Sebi PRO OPTIMIZARE Banner"
-     style="
-        width:100%;
-        max-width:1100px;
-        border-radius:18px;
-        box-shadow: 0px 0px 25px rgba(0, 255, 255, 0.25);
-        border: 2px solid rgba(56, 189, 248, 0.4);
-     ">
+<!-- HERO SECTION -->
+<section class="hero">
+
+    <!-- BANNER PROFESIONAL -->
+    <div style="
+        text-align:center;
+        margin-bottom:30px;
+    ">
+        <img src="My_SebiOPTIMIZARE.jpg"
+             alt="My_Sebi PRO OPTIMIZARE Banner"
+             style="
+                width:100%;
+                max-width:1100px;
+                border-radius:18px;
+                box-shadow:0px 0px 25px rgba(0, 255, 255, 0.25);
+                border:2px solid rgba(56, 189, 248, 0.4);
+             ">
+    </div>
+
+    <h1>Optimizare Windows & Linux pentru Gaming</h1>
+    <p>Scripturi, setări și tweak-uri făcute de Sebi pentru FPS mai mare și experiență fără lag.</p>
+
+    <div class="hero-links">
+        <a href="https://www.youtube.com/@My_Sebi" target="_blank">🎥 Canalul meu YouTube</a>
+        <a href="https://discord.gg/AxvkTCFSd4" target="_blank">💬 Server Discord</a>
+    </div>
+
+</section>
+
