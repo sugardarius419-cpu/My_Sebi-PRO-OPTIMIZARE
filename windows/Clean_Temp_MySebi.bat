@@ -18,6 +18,12 @@
        download
        style="margin-left: 10px;">
        ⚡ Download FPS Boost Windows
+<a class="btn btn-primary"
+   href="windows/FPS_Boost_OldPC_MySebi.bat"
+   download>
+   ⚡ Download FPS Boost (PC vechi)
+</a>
+
     </a>
 </div>
 
