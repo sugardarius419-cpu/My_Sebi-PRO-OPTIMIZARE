@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Sebi PRO OPTIMIZARE</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #020617;
+            color: #e5e7eb;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: #020617ee;
+            border-bottom: 1px solid #1f2937;
+            backdrop-filter: blur(8px);
+        }
+
+        .nav {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 14px 18px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-title {
+            color: #38bdf8;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .nav-links a {
+            color: #9ca3af;
+            text-decoration: none;
+            margin-left: 16px;
+            font-size: 14px;
+        }
+
+        .nav-links a:hover {
+            color: #e5e7eb;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 32px 18px 60px;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .hero img {
+            width: 100%;
+            max-width: 1100px;
+            border-radius: 18px;
+            margin-bottom: 26px;
+            box-shadow: 0 0 30px rgba(56, 189, 248, 0.28);
+            border: 2px solid rgba(56, 189, 248, 0.5);
+        }
+
+        .hero h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            color: #9ca3af;
+            margin-bottom: 22px;
+        }
+
+        .hero-buttons a {
+            display: inline-block;
+            margin: 8px;
+            padding: 12px 20px;
+            border-radius: 999px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+
+        .btn-yt {
+            background: #dc2626;
+            color: white;
+        }
+
+        .btn-yt:hover {
+            background: #ef4444;
+            transform: translateY(-1px);
+        }
+
+        .btn-disc {
+            background: #6366f1;
+            color: white;
+        }
+
+        .btn-disc:hover {
+            background: #818cf8;
+            transform: translateY(-1px);
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 18px;
+            margin-top: 24px;
+        }
+
+        .card {
+            background: #020617;
+            border-radius: 16px;
+            padding: 18px 18px 16px;
+            border: 1px solid #1f2937;
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.6);
+        }
+
+        .card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-size: 11px;
+            margin-bottom: 8px;
+            color: #e5e7eb;
+        }
+
+        .badge.win {
+            background: rgba(59, 130, 246, 0.2);
+            border: 1px solid #3b82f6;
+        }
+
+        .badge.lin {
+            background: rgba(34, 197, 94, 0.2);
+            border: 1px solid #22c55e;
+        }
+
+        .badge.sup {
+            background: rgba(244, 114, 182, 0.2);
+            border: 1px solid #f472b6;
+        }
+
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+            color: #9ca3af;
+            font-size: 14px;
+        }
+
+        li + li {
+            margin-top: 4px;
+        }
+
+        footer {
+            border-top: 1px solid #1f2937;
+            padding: 18px;
+            text-align: center;
+            font-size: 12px;
+            color: #6b7280;
+            background: #020617;
+        }
+
+        @media (max-width: 640px) {
+            .hero h1 {
+                font-size: 22px;
+            }
+
+            .nav-title {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="nav">
+        <div class="nav-title">My_Sebi PRO OPTIMIZARE</div>
+        <div class="nav-links">
+            <a href="#windows">Windows</a>
+            <a href="#linux">Linux</a>
+            <a href="#support">Suport</a>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+
+    <!-- HERO + BANNER -->
+    <section class="hero">
+        <!-- Banner imagine -->
+        <img src="banner.png" alt="My_Sebi PRO OPTIMIZARE – FPS Boost / Windows & Linux">
+
+        <h1>Optimizare Windows & Linux pentru Gaming</h1>
+        <p>Scripturi, setări și tweak-uri făcute de Sebi pentru FPS mai mare și experiență fără lag.</p>
+
+        <div class="hero-buttons">
+            <a class="btn-yt" href="https://www.youtube.com/@My_Sebi" target="_blank">
+                📺 Canalul meu YouTube
+            </a>
+            <a class="btn-disc" href="https://discord.gg/AxvkTCFSd4" target="_blank">
+                💬 Serverul meu Discord
+            </a>
+        </div>
+    </section>
+
+    <!-- Carduri -->
+    <section class="cards">
+        <div class="card" id="windows">
+            <span class="badge win">Windows</span>
+            <h3>Optimizare Windows</h3>
+            <ul>
+                <li>Curățare fișiere temporare</li>
+                <li>Dezactivare servicii inutile</li>
+                <li>FPS Boost pentru Fortnite / Minecraft</li>
+                <li>Scripturi .bat și .reg făcute de tine</li>
+            </ul>
+        </div>
+
+        <div class="card" id="linux">
+            <span class="badge lin">Linux</span>
+            <h3>Optimizare Linux</h3>
+            <ul>
+                <li>Comenzi pentru curățare sistem</li>
+                <li>Optimizare Wine / Proton pentru jocuri</li>
+                <li>Update rapid pentru distribuțiile populare</li>
+            </ul>
+        </div>
+
+        <div class="card" id="support">
+            <span class="badge sup">Ajutor Sebi</span>
+            <h3>Suport & Personalizare</h3>
+            <ul>
+                <li>Asistență prin Discord</li>
+                <li>Setări personalizate pentru PC-ul tău</li>
+                <li>Reparații și optimizări live</li>
+            </ul>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    © <span id="year"></span> My_Sebi PRO OPTIMIZARE – FPS Boost / Windows & Linux
+</footer>
+
+<script>
+    document.getElementById("year").innerText = new Date().getFullYear();
+</script>
+
+</body>
+</html>
